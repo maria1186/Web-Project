@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Hack";
+    src: url("../../font/Hack/Hack-Regular.ttf");
+    src: url("../../font/Hack/Hack-Regular.otf");
+    src: url("../../font/Hack/Hack-Regular.eot");
+    src: url("../../font/Hack/Hack-Regular.svg");
+    src: url("../../font/Hack/Hack-Regular.woff");
+    src: url("../../font/Hack/Hack-Regular.woff2");
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("../../font/Quicksand/Quicksand-Light.ttf");
+    src: url("../../font/Quicksand/Quicksand-Light.otf");
+    src: url("../../font/Quicksand/Quicksand-Light.eot");
+    src: url("../../font/Quicksand/Quicksand-Light.svg");
+    src: url("../../font/Quicksand/Quicksand-Light.woff");
+    src: url("../../font/Quicksand/Quicksand-Light.woff2");
+}
+@font-face {
+    font-family: "Amaranth";
+    src: url("../../font/Amaranth/Amaranth-Regular.ttf");
+    src: url("../../font/Amaranth/Amaranth-Regular.otf");
+    src: url("../font/Amaranth/Amaranth-Regular.eot");
+    src: url("../../font/Amaranth/Amaranth-Regular.svg");
+    src: url("../../font/Amaranth/Amaranth-Regular.woff");
+    src: url("../../font/Amaranth/Amaranth-Regular.woff2");
+    
+}
+
+p {
+    font-family: "Amaranth", sans-serif;
+}
+
+header h2 {
+    font-family: "Quicksand-Light", sans-serif;
+    font-size: 2em;
+    color: #cfcdb4;
+
+}
+
+header h4 {
+    font-family: "Hack", monospace;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #af9671;
+
+}
+
+ul li a {
+    font-family: "Hack", monospace;
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none
+}
+
+.actived {
+    background: #e47a36;
+}
+
+
+#portfolio-menu {
+    margin-bottom: 3em;
+}
+
+/* Overline From Center */
+.hvr-overline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-overline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    background: #e47a36;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-overline-from-center:hover:before,
+.hvr-overline-from-center:focus:before,
+.hvr-overline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+/*  Foundation    */
+
+.grid-x.grid-padding-x>div:nth-child(1)>h3,
+.grid-x.grid-padding-x>div:nth-child(2)>h3 {
+    margin-top: 2em;
+}
+
+.grid-x .cell.large-12 h3 {
+    font-family: "Hack", monospace;
+    color: #fff;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.grid-x .cell.large-4 img {
+    padding-bottom: 0.5em;
+}
+
+footer {
+    background-color: #ea9f3e;
+    height: 5em;
+    margin-top: 5em;
+}
+
+footer p {
+    padding-top: 2em;
+}
+
+#contact {
+    padding-top: 1em;
+}
+
+#contact .callout {
+    background-color: #f4a460;
+}
+
+header {
+    padding: 2em;
+}
+
+#services {
+    padding-top: 2em;
+}
+
+#services h2 {
+    font-family: "Quicksand-Light", sans-serif;
+    line-height: 3;
+    text-align: center;
+}
+
+.media-object-section h4 {
+    font-family: "Hack", monospace;
+    font-size: 1.3em;
+    word-spacing: -7px;
+}
+
+.media-object-section p::first-letter {
+    color: #e47a36;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.no-js {
+    display: none;
+}
