@@ -1,0 +1,245 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+#hair-dryer-bkg {
+    background-image: url("/src/assets/images/hair-dyeing.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    min-height: 26em;
+    animation: fadeIn 3s ease-in 2s both;
+    -moz-animation: fadeIn 3s ease-in 2s both;
+    -webkit-animation: fadeIn 3s ease-in 2s both;
+}
+
+#hair-dryer-bkg>div {
+    animation: fadeIn 3s ease-in 3.5s both;
+    -moz-animation: fadeIn 3s ease-in 3.5s both;
+    -webkit-animation: fadeIn 3s ease-in 3.5s both;
+}
+
+#hair-dryer-bkg h2, h3 {
+    text-align: center;
+}
+
+#hair-dryer-bkg h2 {
+    color: white;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+#hair-dryer-bkg h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* #hair-dryer-bkg h2 {
+    color: #fff;
+    font-size: 3.7em;
+    font-weight: 400;
+}
+#hair-dryer-bkg h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.7em;
+    font-weight: 500;
+} */
+
+p {
+    text-align: center;
+}
+
+.demo-request {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(0, 0, 0, 0.21);
+    background-color: #594059;
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px 110px 20px 110px;
+    text-align: center;
+}
+
+.button-yellow-choice {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #ffcf00;
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px 110px 20px 110px;
+}
+
+.wrapper-btn, .card-title {
+    text-align: center;
+}
+
+.button-nuance-pink-choice {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #f58e7f;
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px 110px 20px 110px;
+}
+
+.wrapper-divider {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.divider {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e3e3e3;
+    width: 71%;
+    display: inline-block;
+}
+
+.button-pink-choice {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #ee4e79;
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px 110px 20px 110px;
+}
+
+.button-purple-individual-plan {
+    color: #fff;
+    background-color: #594059;
+    border-radius: 6px 6px 6px 6px;
+    padding: 20px 40px 20px 40px;
+}
+
+.wrap-hair {
+    width: 190px;
+    height: 190px;
+    background-color: #ffffff;
+    box-shadow: 0 0 80px 0 rgba(89, 64, 89, 0.12);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.wrap-hair img {
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+
+.card-deck.row {
+    opacity: 0;
+    animation: fadeIn 3s ease-in 9s both;
+    -moz-animation: fadeIn 3s ease-in 9s both;
+    -webkit-animation: fadeIn 3s ease-in 9s both;
+}
+/* Individual plan section */
+.row.py-5 {
+    opacity: 0;
+    animation: fadeIn 3s ease-in 11s both;
+    -moz-animation: fadeIn 3s ease-in 11s both;
+    -webkit-animation: fadeIn 3s ease-in 11s both;
+}
+#hair {
+    background-color: #f6f4f3;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    animation: fadeIn 3s ease-in 13s both;
+    -moz-animation: fadeIn 3s ease-in 13s both;
+    -webkit-animation: fadeIn 3s ease-in 13s both;
+}
+
+/* Ask for demo section */
+.row.p-5 {
+    opacity: 0;
+    animation: fadeIn 3s ease-in 14s both;
+    -moz-animation: fadeIn 3s ease-in 14s both;
+    -webkit-animation: fadeIn 3s ease-in 14s both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-sub-title {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #776f76;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text-price1 {
+    color: #ffcf00;
+}
+
+.card-text-price1, .card-text-price2, .card-text-price3 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.card-text-price2 {
+    color: #f58e7f;
+}
+
+.card-text-price3 {
+    color: #ee4e79;
+}
+
+.card-text-price>.card-text, .card-text-price~.card-text {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+div.row.py-5>div>h2 {
+    font-weight: 400;
+}
+
+#hair>div>p:nth-child(3), #hair>div>p:nth-child(5) {
+    word-spacing: 5px;
+    line-height: 1.6;
+    text-align: left;
+}

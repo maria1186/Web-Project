@@ -1,0 +1,151 @@
+<div class="container-fluid panel-transition">
+  <div class="row" id="company-top-bgr">
+    <div class="col-md-6 offset-4">
+      <h2 class="mt-6 pt-5">GОBEAUTY идва при теб </h2>
+      <p class="pl-4">Всеки ден от седмицата във вашия офис от 08 до 20 часа</p>
+    </div>
+  </div>
+  <div class="row" id="benefits">
+    <div class="col-md-6">
+      <div class="row pt-5">
+        <div class="col-md-12 py-5">
+          <h2>Какво да очаквате?</h2>
+        </div>
+        <!--/.col-md-12 nested-->
+      </div>
+      <!--/.row nested-->
+      <div class="row offset-1 pb-5">
+        <div class="col-md-5 offset-md-1 pb-5">
+          <img class="img-fluid" width="78" height="68" src="/src/assets/images/smiley.png" class="img-fluid" alt="smiley">
+          <h3 class="image-box-title">По-малко стрес</h3>
+          <p class="image-box-description">Масажът в офиса помага за облекчаване на хроничния стрес. Щастливите
+            служители са
+            ефективни служители!</p>
+        </div>
+        <!--/.col-md-6 nested-->
+        <div class="col-md-5 offset-md-1 pb-5">
+          <img class="img-fluid" width="78" height="68" src="/src/assets/images/check_list.png" alt="check_list" class="img-fluid">
+          <h3 class="image-box-title">Повече продуктивност</h3>
+          <p class="image-box-description">Подмладеният ум е по-продуктивен. Служителите ще бъдат освежени след масаж
+            на стол.</p>
+
+        </div>
+        <!--/.col-md-6 nested-->
+      </div>
+      <!--/.row nested-->
+      <div class="row offset-1 pb-5">
+        <div class="col-md-5 offset-md-1 pb-5">
+          <img class="img-fluid" width="78" height="68" src="/src/assets/images/team.png" alt="team" class="img-fluid">
+          <h3 class="image-box-title">Повече работна етика</h3>
+          <p class="image-box-description">Допълнителните придобивки за служителите ги стимулират позитивно и ги
+            подготвят до
+            ходат щастливи на работа.</p>
+        </div>
+        <!--/.col-md-6 nested-->
+        <div class="col-md-5 offset-md-1 pb-5">
+          <img class="img-fluid" width="84" height="80" src="/src/assets/images/dollar-symbol.png" class="img-fluid"
+            alt="dollar-symbol">
+          <h3 class="image-box-title">Разумен разход</h3>
+          <p class="image-box-description">Правете служителите си щастливи, без да изпадате в големи разходи.</p>
+        </div>
+        <!--/.col-md-6 nested-->
+      </div>
+      <!--/.row nested-->
+      <div class="row offset-1 pb-5">
+        <div class="col-md-5 offset-md-1 pb-5">
+          <img class="img-fluid" width="78" height="68" src="/src/assets/images/guarantee-icon.png" class="img-fluid"
+            alt="guarantee-icon">
+          <h3 class="image-box-title">30-дневна гаранция</h3>
+          <p class="image-box-description">Ако след месец не сте доволни от услуга - ще ви възстановим инвестицията.</p>
+        </div>
+        <!--/.col-md-6 nested-->
+        <div class="col-md-5 offset-md-1 pb-5">
+          <img class="img-fluid" width="78" height="68" src="/src/assets/images/hand-with-heart.png " class="img-fluid"
+            alt="hand-heart-icon">
+          <h3 class="image-box-title">Здраве и красота</h3>
+          <p class="image-box-description">Правете служителите си щастливи, без да изпадате в големи разходи.</p>
+        </div>
+        <!--/.col-md-6 nested-->
+      </div>
+      <!--/.row nested-->
+    </div>
+    <!--/.col-md-6-->
+
+
+    <div class="col-md-6 py-5">
+      <form [formGroup]="demoVisits" (ngSubmit)="onSubmit()" name="demo-visits" id="demo-visits">
+
+        <h2 id="asked-free-demo" class="pb-3">Заяви безплатно демо посещение</h2>
+        <p id="have-questions" class="pb-5">Имате въпроси? <br>Свържете се с нас: 0888 057 152</p>
+
+        <input class="form-control mb-3" type="text" size="40" aria-required="true" aria-invalid="false" placeholder="Име и фамилия"
+          name="flastName" formControlName="flastName" required><br>
+        <div *ngIf="flastName?.valid || flastName?.pristine" class="alert alert-danger">
+          Name is required
+        </div>
+        <input class="form-control mb-3" type="tel" size="40" aria-required="true" aria-invalid="false" placeholder="Телефон"
+          name="phone" formControlName="phone" required><br>
+        <div *ngIf="phone?.valid || phone?.pristine" class="alert alert-danger">
+          <div *ngIf="phone.errors.pattern">
+            Phone format invalid
+          </div>
+          <div *ngIf="phone.errors?.required">
+            Phone required
+          </div>
+
+        </div>
+        <input class="form-control mb-3" type="email" size="40" aria-required="true" aria-invalid="false" placeholder="Имейл"
+          name="email" formControlName="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required><br>
+        <div *ngIf="email?.valid || email?.pristine" class="alert alert-danger">
+          <div *ngIf="email.errors">
+            Official Email required.
+          </div>
+          <div *ngIf="email.errors">
+            Official Email not valid.
+          </div>
+        </div>
+
+        <input class="form-control mb-3" type="text" size="40" aria-required="true" aria-invalid="false" placeholder="Фирма"
+          name="community" formControlName="community" required><br>
+        <div *ngIf="community?.valid || community?.pristane" class="alert alert-danger">
+          <div *ngIf="community?.errors.required">
+            community is required
+          </div>
+        </div>
+        <input class="form-control mb-3" type="text" size="40" aria-required="true" aria-invalid="false" placeholder="Брой служители"
+          name="employees" formControlName="employees" required><br>
+        <div *ngIf="employees?.valid || employees?.pristane" class="alert alert-danger">
+          <div *ngIf="employees?.errors.required">
+            employees is required
+          </div>
+        </div>
+        <textarea class="form-control mb-3" name="your-message" cols="40" rows="10" aria-invalid="false" placeholder="Коментар"
+          name="comment" formControlName="comment"></textarea>
+
+        <label class="check">
+          <input type="checkbox" name="agreement" formControlName="agreement" required />
+          <div class="box"></div>
+          <div *ngIf="agreement?.invalid && agreement?.dirty">
+            <div *ngIf="agreement?.required">This agreement required</div>
+          </div>
+        </label>
+        <small>
+          Давам съгласието си личните ми данни да бъдат съхранени и обработвани единствено и само от GOBEAUTY спрямо
+          изискванията на българското и европейско законодателство.
+        </small>
+        <button class="btn btn-block mt-5 p-3" type="submit" [disabled]="!demoVisits.valid">ЗАЯВИ ДЕМО</button>
+      </form>
+
+    </div>
+    <!--/.col-md-6 form apply-->
+  </div>
+  <!--/.row-->
+  <div class="row">
+    <div class="col-md-12">
+      <cosmetics-services></cosmetics-services>
+    </div>
+    <!--/.col-md-12-->
+  </div>
+  <!--/.row-->
+</div>
+<!--/.container-fluid-->
