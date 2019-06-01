@@ -1,0 +1,12 @@
+{
+    "tablets": "Кларитин таблетки",
+    "tablets_image":"assets/img/Claritin_Tabl_Box_3D_Front_BG.png",
+    "syrup": "Кларитин сироп с вкус на праскова",
+    "syrup_image":"assets/img/Claritin_Syrup_Box_3D_Front_BGv2.png",
+    "teens": "Клариназе",
+    "teens_image":"assets/img/BG_Clarinase_Front.png",
+    "food_allergies":["Яйца"," Мляко","Фъстъци"," Ядки","Риба","Морски дарове","Пшеница", " Соя" ],
+    "allergens_image":["assets/img/eggs.png", "assets/img/fish.png", "assets/img/milk.png", "assets/img/nuts.png", "assets/img/peanuts.png", "assets/img/seafood.png", "assets/img/soybeans.png", "assets/img/wheat.png"]
+   
+  }
+  
