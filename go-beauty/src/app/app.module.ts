@@ -36,7 +36,6 @@ import { CosmeticsServicesComponent } from './cosmetics-services/cosmetics-servi
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
