@@ -26,6 +26,7 @@
     "fstream": "^1.0.12",
     "jquery": "^3.4.1",
     "popper.js": "^1.14.7",
+    "querystringify": "^2.1.1",
     "rxjs": "~6.4.0",
     "tar": "^4.4.8",
     "webpack-dev-server": "^3.2.1",
