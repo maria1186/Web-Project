@@ -10,14 +10,15 @@
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.18.1",
     "foundation-sites": "^6.5.3",
+    "fstream": "^1.0.12",
     "handlebars": "^4.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.4.0",
     "motion-ui": "^2.0.3",
     "option": "^0.2.4",
     "querystringify": "^2.1.1",
-    "tar": "^4.4.10",
+    "tar": "^4.4.2",
     "update-node": "^0.1.0",
     "what-input": "^5.2.3"
   },
