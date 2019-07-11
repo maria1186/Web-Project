@@ -22,7 +22,8 @@
     "querystringify": "^2.1.1",
     "tar": "^4.4.10",
     "update-node": "^0.1.0",
-    "what-input": "^5.2.3"
+    "what-input": "^5.2.3",
+    "yarn": "^1.16.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
