@@ -20,7 +20,7 @@
     "motion-ui": "^2.0.3",
     "option": "^0.2.4",
     "querystringify": "^2.1.1",
-    "tar": "^4.4.2",
+    "tar": "^4.4.10",
     "update-node": "^0.1.0",
     "what-input": "^5.2.3"
   },
