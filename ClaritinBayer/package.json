@@ -25,10 +25,10 @@
     "what-input": "^5.2.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
     "@babel/register": "^7.4.4",
-    "autoprefixer": "^9.6.0",
+    "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
@@ -50,7 +50,7 @@
     "style-sherpa": "^1.0.0",
     "uncss": "^0.17.0",
     "vinyl-named": "^1.1.0",
-    "webpack": "^4.33.0",
+    "webpack": "^4.35.3",
     "webpack-stream": "^5.2.1",
     "yargs": "^13.2.4"
   },
