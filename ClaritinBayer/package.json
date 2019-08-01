@@ -25,11 +25,11 @@
     "tar": "^4.4.10",
     "update-node": "^0.1.0",
     "what-input": "^5.2.3",
-    "yarn": "^1.16.0"
+    "yarn": "^1.17.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.4.4",
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
@@ -48,15 +48,15 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.15",
     "panini": "^1.6.3",
     "rimraf": "^2.6.3",
     "style-sherpa": "^1.0.2",
     "uncss": "^0.17.0",
     "vinyl-named": "^1.1.0",
-    "webpack": "^4.35.3",
+    "webpack": "^4.38.0",
     "webpack-stream": "^5.2.1",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   },
   "repository": {
     "type": "git",
