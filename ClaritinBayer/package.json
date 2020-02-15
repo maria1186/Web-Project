@@ -15,7 +15,11 @@
     "braces": "^3.0.2",
     "foundation-sites": "^6.6.1",
     "fstream": "^1.0.12",
+<<<<<<< HEAD
     "handlebars": "^4.5.3",
+=======
+    "handlebars": "^4.3.0",
+>>>>>>> d9a7dca891162d6cd44cb9484d213458ab6db6f4
     "jquery": "^3.4.1",
     "lodash.mergewith": "^4.6.2",
     "lodash.template": "^4.5.0",
@@ -26,8 +30,13 @@
     "serialize-javascript": "^2.1.2",
     "tar": "^4.4.13",
     "update-node": "^0.1.0",
+<<<<<<< HEAD
     "what-input": "^5.2.6",
     "yarn": "^1.21.1"
+=======
+    "what-input": "^5.2.3",
+    "yarn": "^1.22.0"
+>>>>>>> d9a7dca891162d6cd44cb9484d213458ab6db6f4
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
