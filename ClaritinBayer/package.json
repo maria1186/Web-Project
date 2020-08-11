@@ -23,7 +23,7 @@
     "motion-ui": "^2.0.3",
     "option": "^0.2.4",
     "querystringify": "^2.1.1",
-    "serialize-javascript": "^2.1.2",
+    "serialize-javascript": "^3.1.0",
     "tar": "^4.4.13",
     "update-node": "^0.1.0",
     "what-input": "^5.2.10",
