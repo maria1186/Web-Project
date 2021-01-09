@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "ajv": "^6.12.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "braces": "^3.0.2",
     "foundation-sites": "^6.6.3",
     "fstream": "^1.0.12",
@@ -21,7 +21,7 @@
     "lodash.template": "^4.5.0",
     "marked": "^0.7.0",
     "motion-ui": "^2.0.3",
-    "npm": "^7.2.0",
+    "npm": "^7.4.0",
     "option": "^0.2.4",
     "querystringify": "^2.2.0",
     "serialize-javascript": "^4.0.0",
@@ -57,7 +57,7 @@
     "style-sherpa": "^1.0.2",
     "uncss": "^0.17.3",
     "vinyl-named": "^1.1.0",
-    "webpack": "^5.10.3",
+    "webpack": "^5.12.2",
     "webpack-stream": "^5.2.1",
     "yargs": "^14.2.3"
   },
