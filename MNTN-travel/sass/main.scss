@@ -1,0 +1,320 @@
+@import 'mixin';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:"Mont-ExtraLigh" ;
+    src: url("../fonts/Mont/Mont-ExtraLight.eot") format("embedded-opentype"),
+         url("../fonts/Mont/Mont-ExtraLight.ttf") format("truetype"),
+         url("../fonts/Mont/Mont-ExtraLight.woff") format("woff"),
+         url("../fonts/Mont/Mont-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Thryomanes" ;
+    src: url("../fonts/Thryomanes/ThryomanesNormal.eot") format("embedded-opentype"),
+         url("../fonts/Thryomanes/ThryomanesNormal.ttf") format("truetype"),
+         url("../fonts/Thryomanes/ThryomanesNormal.woff") format("woff"),
+         url("../fonts/Thryomanes/ThryomanesNormal.woff2") format("woff2");
+}
+
+
+  a {
+    @include link;
+    &:hover{
+      background-color: #ffffff;
+      color: #EEA200;
+      padding: .2em;
+     
+    }
+  
+}
+  nav ul li {
+    font-family: "Mont-ExtraLigh";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  header {
+    @include flex;
+    @include flex-wrap;
+    @include justify-content-space-around;
+    background-image: url("../images/Mountain-BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 31em;
+    align-content: baseline;
+    padding: 3em 1em;
+  
+    ul {
+      @include flex;
+      list-style: none;
+      li {
+        padding: 1em;
+      }
+    }
+  }
+  #account {
+    &::before {
+      content: url("../images/cart.png");
+      width: 24px;
+      height: 24px;
+      padding-right: .48em;
+      color: #fff;
+      display: inline;
+      vertical-align: middle;
+    }
+  
+    align-self: center;
+  }
+  
+  #one, #two, #tree {
+    @include flex;
+    @include justify-content-space-between;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+    padding-bottom: calc(12.5em);
+  }
+  
+  .scroll-indicator-controller {
+    &::before {
+      content: "Start";
+      font-size: 1.2em;
+      color: red;
+    }
+  
+    > span {
+      display: block;
+      margin-top: 15px;
+    }
+  }
+  p {
+    font-family: "Mont-ExtraLigh";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin: 20px 0;
+  }
+  
+  .tagline {
+    font-family: "Mont-ExtraLigh", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+  }
+  
+  .number {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 8em;
+    font-weight: bold;
+  }
+  
+  .left-col {
+    @include flex-basis(35%);
+    padding-left: calc(5em);
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 740px) {
+    #one, #two, #tree {
+      @include flex-wrap;
+      @include justify-content-center;
+    }
+  
+    header {
+      padding: 1em;
+    }
+  
+    .left-col {
+      @include flex-basis(90%);
+      padding: calc(2em);
+      line-height: 1.5;
+      height: 100%;
+    }
+  }
+  
+  .right-col {
+    @include flex-basis(50%);
+    padding: 1em;
+  }
+  
+  img {
+    display: block;
+    width: 380px;
+    height: 440px;
+    margin: auto;
+  }
+  
+  /* Read More link */
+  
+  .addReadMore {
+    &.showlesscontent {
+      .SecSec, .readLess {
+        display: none;
+      }
+    }
+  
+    &.showmorecontent .readMore {
+      display: none;
+    }
+  
+    .readMore, .readLess {
+      margin-left: 2px;
+      font-family: "Mont-ExtraLigh";
+      font-size: 18px;
+      line-height: 22px;
+      color: #FBD784;
+      cursor: pointer;
+      transition: height 200ms ease-out;
+      -webkit-transition: height 200ms ease-out;
+      -moz-transition: height 200ms ease-out;
+      -ms-transition: height 200ms ease-out;
+      -o-transition: height 200ms ease-out;
+}
+  }
+  .showlesscontent{height: auto;}
+  .showmorecontent{height: 170px;}
+  .addReadMoreWrapTxt.showmorecontent {
+    .SecSec, .readLess {
+      display: block;
+    }
+  }
+  
+  #two > .left-col {
+    padding-right: calc(8em);
+    padding-left: 0;
+  }
+  
+  #tree > .left-col {
+    @include flex-basis(36%);
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  footer {
+    @include flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    background: linear-gradient(360deg, rgba(11, 29, 38, 0) 0%, #0B1D26 31.38%);
+    padding-bottom: 120px;
+  
+    ul {
+      display: list-item;
+      list-style: none;
+    }
+  }
+  
+  .wrap-links {
+    @include flex-basis(100%);
+    @include flex;
+    @include flex-wrap;
+    @include justify-content-space-evenly;
+    align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    margin: auto;
+  
+    .left-col {
+      padding-left: 6em;
+    }
+  }
+  
+  footer {
+    ul {
+      &:nth-of-type(1) {
+       @include flex;
+       @include flex-wrap;
+       @include flex-basis(20%);
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        /*flex-basis: 20%;*/
+      }
+  
+      &:nth-of-type(2) {
+        @include flex-basis(20%);
+        @include flex;
+        flex-direction: column;
+      }
+  
+      &:nth-of-type(1), &:nth-of-type(2) {
+        line-height: 3;
+      }
+    }
+  
+    .left-column {
+      margin: auto;
+    }
+  }
+  
+  .left-column p:nth-of-type(2) {
+    padding-top: calc(8.5em);
+  }
+  
+  .logo a {
+    font-family: "Thryomanes";
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .logo a:hover {
+      background-color: transparent;
+      color: #EEA200;
+  }
+  
+  footer li {
+    &:first-child a {
+      font-family: "Mont-ExtraLigh";
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #FBD784;
+    }
+  
+    &:not(:first-child) a {
+      font-family: "Mont-ExtraLigh";
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+      color: #fff;
+      &:hover{
+        background-color: #ffffff;
+        color: #EEA200;
+        padding: .2em;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 753px) {
+    .left-column p {
+      &:nth-of-type(1) {
+        width: 70%;
+        margin: auto;
+      }
+  
+      &:nth-of-type(2) {
+        text-align: center;
+      }
+    }
+  
+    footer .logo {
+      text-align: center;
+    }
+  }

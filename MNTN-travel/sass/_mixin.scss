@@ -1,0 +1,36 @@
+@mixin link {
+    transition: 0.4s;
+    text-decoration: none;
+    color: #fff;
+}
+@mixin flex{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+@mixin flex-wrap {
+  -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+@mixin justify-content-space-around {
+  -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+@mixin justify-content-space-evenly{
+  -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+}
+@mixin justify-content-space-between {
+  -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+@mixin justify-content-center{
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+@mixin flex-basis($value){
+    flex-basis: $value;
+}
