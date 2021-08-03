@@ -25,7 +25,7 @@
     "option": "^0.2.4",
     "querystringify": "^2.2.0",
     "serialize-javascript": "^4.0.0",
-    "tar": "^4.4.13",
+    "tar": "^4.4.15",
     "update-node": "^0.1.0",
     "what-input": "^5.2.10",
     "yarn": "^1.22.10"
