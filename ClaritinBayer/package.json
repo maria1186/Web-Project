@@ -24,6 +24,7 @@
     "motion-ui": "^2.0.3",
     "npm": "^8.3.1",
     "option": "^0.2.4",
+    "postcss": "^8.4.5",
     "querystringify": "^2.2.0",
     "semver-regex": "^4.0.2",
     "serialize-javascript": "^4.0.0",
