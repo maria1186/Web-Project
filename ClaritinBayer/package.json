@@ -20,7 +20,7 @@
     "jquery": "^3.6.0",
     "lodash.mergewith": "^4.6.2",
     "lodash.template": "^4.5.0",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "motion-ui": "^2.0.3",
     "npm": "^8.3.0",
     "option": "^0.2.4",
