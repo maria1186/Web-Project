@@ -9,11 +9,11 @@ import App from './../App.css';
 
 class VitaminC extends React.Component {
     render() {
-        return <Container fluid>
+        return <Container fluid="xl">
             <Header />
             <Row>
                 <Col md={{ span: 12 }}>
-                    <Image webp={require("../images/berries.webp")} alt="berries" style={{ width: '100%' }} />
+                    <Image webp={require("../images/berries.webp")} alt="berries" style={{ width: '1263px' }} />
                 </Col>
             </Row>
             <Row>
@@ -38,12 +38,12 @@ class VitaminC extends React.Component {
                 </Col>
 
             </Row>
-            <Row>
-                <Col md={{ span: 4, offset: 2 }}>
-                    <Image webp={require("../images/vit_c_molecole.webp")} style={{ width: '87%', height: '100%' }} />
+            <Row className="justify-content-center align-items-center">
+                <Col md={{ span: 3, offset: 1 }}>
+                    <Image webp={require("../images/vit_c_molecole.webp")} style={{ width: '100%'}} />
                 </Col>
                 <Col md={{ span: 4 }}>
-                    <h1 className="py-4">Какво прави витамин С?</h1>
+                    <h2 className="py-4">Какво прави витамин С?</h2>
                     <p>Витамин C помага на имунната Ви система да функционира нормално и спомага
                      за намаляване на умората. Като антиоксидант, витамин С допринася и за защитата
                      на Вашите клетки и спомага за тяхната нормална функция. Витамин С помага и за
@@ -54,7 +54,7 @@ class VitaminC extends React.Component {
             </Row>
             <Row>
                 <Col md={{ span: 4, offset: 2 }}>
-                    <h1 className="py-4">Какво представлява цинкът и защо се нуждая от него?</h1>
+                    <h3 className="py-4">Какво представлява цинкът и защо се нуждая от него?</h3>
                     <p>Цинкът е микроелемент  и  също както витамин С, допринася за нормалното
                          функциониране на имунната система, както и за защита на клетките от
                           оксидативния стрес. Цинкът е необходим и за растежа и развитието. Присъства в
@@ -71,7 +71,7 @@ class VitaminC extends React.Component {
                     <Image webp={require("../images/glass.webp")} style={{ width: '87%', height: '100%' }} />
                 </Col>
                 <Col md={{ span: 4 }}>
-                    <h1 className="py-4">Защо витамин С и цинк?</h1>
+                    <h3 className="py-4">Защо витамин С и цинк?</h3>
                     <p>В комбинацията от микроелементи Редоксон® витамин С и цинк се допълват взаимно,
                          за да подпомогнат имунната система на Вашия организъм*. Витамин С и цинкът
                         заедно подпомагат нормалното функциониране на кожата, а витамин С спомага
@@ -82,9 +82,9 @@ class VitaminC extends React.Component {
                         <sup>*Витамин C и цинк допринасят за нормалната функция на имунната система.</sup></p>
                 </Col>
             </Row>
-            <Row>
-                <Col md={{ span: 4, offset: 2 }}>
-                    <h1 className="py-4">Как Редоксон® помага на Вашата имунна система</h1>
+            <Row className="justify-content-center align-items-center">
+                <Col md={{ span: 5, offset: 1 }}>
+                    <h3 className="py-4 text-center">Как Редоксон® помага на Вашата имунна система</h3>
                     <p>Тялото Ви е снабдено с мощни естествени защити, а имунната Ви система разполага
                          с множество начини за справяне със заплахите от бактерии и вируси. Можете да
                           приемате допълнителни витамини и минерали, за да поддържате имунната си система.
@@ -98,18 +98,18 @@ class VitaminC extends React.Component {
                                 Витамин С подпомага нормалното функциониране на имунната система</sup></p>
                 </Col>
                 <Col md={{ span: 4}}>
-                    <Image webp={require("../images/chemistry.webp")} style={{ width: '87%' }} />
+                    <Image webp={require("../images/chemistry.webp")} style={{ width: '100%',height:'80%' }} />
                 </Col>
             </Row>
             <Row>
                 <Col md={{ span: 12 }}>
-                    <img src={Basketball} style={{ width: '100%', height: '100%' }} />
+                    <img src={Basketball} style={{ width: '1263px', height: '100%' }} />
                 </Col>
                 
             </Row>
   <Row>
       <Col md={{span:6, offset:3}} className="text-center">
-       <h1 className="py-4">Редоксон® подпомага нормалното функциониране на имунната система</h1>
+       <h3 className="py-4">Редоксон® подпомага нормалното функциониране на имунната система</h3>
                     <p>Нашата гама продукти за укрепване на имунитета се основава на ползите от
                             витамин С и цинк, подбрани да подкрепят имунната система.* Необходимо е да
                             се грижите за имунната си система. Дори и да не го усещате, имунната система

@@ -5,10 +5,10 @@ import Cell from '../images/cell.jpg';
 import Header from './Header';
 import Footer from './Footer';
 import { Container, Row, Col } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
+
 class Home extends React.Component {
     render() {
-        return <Container fluid>
+        return <Container fluid="xl">
 
             <Header />
             <Row>
@@ -62,10 +62,7 @@ class Home extends React.Component {
                 <p>Искате да знаете кои храни могат да поддържат имунната Ви система или защо е важно да спите достатъчно?
                   Прочетете съветите на нашите специалисти и факти за здравето на имунната система.</p>
             </Col></Row>
-            <Row>
-                <Col md={{ span: 9, offset: 2 }}><ReactPlayer url='https://www.youtube.com/watch?v=N2RZizY17QI' playing  width='983px'
-          height='553px' volume='1' muted='true' loop='true'/></Col>
-            </Row>
+            
             <Row className="mt-4" style={{ justifyContent: 'center' }}>
                 <Col md={{ span: 3, offset: 1 }}><Image webp={require("../images/contact-us-home@2x.webp")} style={{ width: '100%' }} />
                     <h5 className="m-4 text-center">

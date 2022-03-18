@@ -7,10 +7,10 @@ import App from './../App.css';
 
 class Redoxsitos extends React.Component {
     render() {
-        return <Container fluid>
+        return <Container fluid="xl">
             <Header />
             <Row><Col>
-                <Image webp={require("../images/redoitos-h-BG.webp")} style={{ width: '100%' }} />
+                <Image webp={require("../images/redoitos-h-BG.webp")} style={{width: '1263px'}} />
             </Col></Row>
             <Row className="mt-4 text-center"><Col>
                 <h1 className="title-orange">Редокситос® Желирани бонбони за нормалното функциониране на имунната система</h1>

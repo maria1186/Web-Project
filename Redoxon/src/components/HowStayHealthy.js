@@ -9,11 +9,11 @@ import App from './../App.css';
 
 class HowStayHealthy extends React.Component {
   render() {
-    return <Container fluid>
+    return <Container fluid="xl">
       <Header />
       <Row>
         <Col md={{ span: 12 }}>
-          <img src={Runner} alt="runner" style={{ width: '100%' }} />
+          <img src={Runner} alt="runner" style={{ width: '1263px' }} />
         </Col>
       </Row>
       <Row>
@@ -99,10 +99,10 @@ class HowStayHealthy extends React.Component {
       </Row>
       <Row>
         <Col md={{span:5, offset:2}} style={{padding:0}}>
-          <Image webp={require("../images/redoxon-hand-image.webp")} />
+          <Image webp={require("../images/redoxon-hand-image.webp")} style={{width:'100%'}}/>
           </Col>
           <Col md={{span:4}}>
-          <h3 className="title-red p-4">Да бъдете здрави през цялата година</h3>
+          <h3 className="title-red p-4 text-center">Да бъдете здрави през цялата година</h3>
           <p className="pl-4">Според скорошно проучване на Университета на Кембридж, нашата имунна система се повлиява
               от сезоните. Това обяснява защо е по-вероятно да се разболеем през зимата. Няколко дни
               на зимно слънце биха могли да Ви помогнат да се почувствате по-добре, въпреки че
@@ -113,7 +113,7 @@ class HowStayHealthy extends React.Component {
       <Row className="py-3">
         <Col md={{span:3, offset:2}}>
           <Image webp={require("../images/cold-virus@2x.webp")} style={{width:'100%'}}/>
-          <h3 className="title-red py-4">Четири лесни начина да спрете разпространението на простудните заболявания във Вашето семейство</h3>
+          <h3 className="title-red py-4 text-center">Четири лесни начина да спрете разпространението на простудните заболявания във Вашето семейство</h3>
           <ol>
             <li>Мийте си ръцете – около 80% от инфекциозните заболявания се разпространяват при допир.
        Микробите попадат по ръцете Ви и след това в очите и устата.</li>
@@ -128,7 +128,11 @@ class HowStayHealthy extends React.Component {
         </Col>
         <Col md={{span:3}}>
           <Image webp={require("../images/food-bag@2x.jpg")} style={{width:'100%'}}/>
-          <h3 className="title-red py-4">Три лесни начина да се отнасяте добре към стомаха си</h3>
+          <h3 className="title-red py-4 text-center">Три лесни начина да се отнасяте добре към стомаха си</h3>
+          <p>Ако страдате от храносмилателни смущения, научете повече
+          за нашия продукт <a href="http://www.iberogast.bg/">Иберогаст</a> –
+            с 9 лечебни растения, които Ви помагат при симптоми на стомашно-чревен дискомфорт,
+           подходящ за възрастни и деца над 3 години.</p>
           <p>Нашата чревна флора е ключът към здрава имунна система. За да я поддържате в  хармония,
           Вие бихте могли:</p>
           <ol>
@@ -139,10 +143,7 @@ class HowStayHealthy extends React.Component {
             <li>Приемайте пробиотик, за да помогнете на имунната си система по време на стрес
                  и след прием на антибиотици.</li>
           </ol>
-          <p>Ако страдате от храносмилателни смущения, научете повече
-          за нашия продукт <a href="http://www.iberogast.bg/">Иберогаст</a> –
-            с 9 лечебни растения, които Ви помагат при симптоми на стомашно-чревен дискомфорт,
-           подходящ за възрастни и деца над 3 години.</p>
+          
 
         </Col>
         <Col md={{span:3}}>

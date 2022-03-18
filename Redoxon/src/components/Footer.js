@@ -6,7 +6,7 @@ import App from './../App.css';
 
 class Footer extends React.Component{
     render(){
-        return <Container fluid style={{height:'200px'}}>
+        return <Container fluid="xl" style={{height:'200px'}}>
           <Row>
           <Col md={{span:2}} className="social-links pt-5">
                 <ul>
@@ -31,7 +31,7 @@ class Footer extends React.Component{
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" style={{borderTop:'1px solid #fff', borderBottom:'1px solid #fff'}}>
-    <Nav className="ml-3 py-4">
+    <Nav className="ml-1 py-4">
     <Nav.Link href="#" style={{color:'#fff'}}>Свържете се с нас</Nav.Link>
       <Nav.Link href="#" style={{color:'#fff'}}>Права за ползване</Nav.Link>
       <Nav.Link href="#" style={{color:'#fff'}}>Декларация за поверителност</Nav.Link>

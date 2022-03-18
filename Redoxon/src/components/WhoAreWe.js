@@ -19,7 +19,7 @@ class WhoAreWe extends React.Component{
             slidesToShow: 1,
             slidesToScroll: 1
           };
-        return<Container fluid>
+        return<Container fluid="xl">
         <Header/>
         <Row>
             <Col md={{span:12}}>
@@ -70,7 +70,7 @@ class WhoAreWe extends React.Component{
         </Row>
         <Row>
           <Col md={{span:6,offset:3}} style={{textAllign:'center'}}>
-          <h1>Да променим нещата и да осигурим по добра защита на здравето в целия свят</h1>
+          <h2>Да променим нещата и да осигурим по добра защита на здравето в целия свят</h2>
           <p>С настоящите инициативи в Еквадор и Мексико ние защитаваме общонстите по света, като
            обучаваме и работим за чистота, здраве, хигиена и безопасност. Ние сме спонсорирали
             почистването на местния парк в една община в Еквадор, за да помогнем да се пребори
@@ -82,12 +82,12 @@ class WhoAreWe extends React.Component{
         </Row>
         <Row>
           <Col md={{span:12}} className="py-4 text-center">
-          <img  src={HappyFamily}  alt="family"/>
+          <img  src={HappyFamily}  alt="family" style={{width:'1263px'}}/>
           </Col>
         </Row>
         <Row>
           <Col md={{span:6,offset:3}} style={{textAllign:'center'}} className="text-center py-4">
-          <h1>Подкрепа за Вашето здраве в продължение на повече от 80 години</h1>
+          <h3>Подкрепа за Вашето здраве в продължение на повече от 80 години</h3>
           <p>Редоксон®  помага за поддържане на здравето на хората в целия свят в продължение на повече
             от 80 години. През 1934 г.  прокарахме пътя на първата хранителна добавка с витамин C
              в света и оттогава  сме неизменни лидери. Днес ние предлагаме гама от иновативни продукти,

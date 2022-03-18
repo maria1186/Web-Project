@@ -14,9 +14,8 @@ class Header extends React.Component {
     </Row>
 
       <Row>
-        <Col md={12}>
-          <Navbar collapseOnSelect expand="lg" style={{ background: 'linear-gradient(to bottom, #b50e0b 0%,#ec641a 100%)' }}
-            className="py-3">
+        <Col xl={12} style={{ background: 'linear-gradient(to bottom, #b50e0b 0%,#ec641a 100%)' }}>
+          <Navbar collapseOnSelect expand="lg" className="py-3">
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -36,8 +35,7 @@ class Header extends React.Component {
                 <li className="nav-item"><Link to="/WhereBuy">Откъде да го закупите</Link></li>
                 <li className="nav-item"><Link to="/Faq">FAQ</Link></li>
                 <li className="nav-item"><Link to="/WhoAreWe">Кои сме ние</Link></li>
-                <li className="nav-item"><Link to="/Video">Видео</Link></li>
-
+                
               </ul>
 
             </Navbar.Collapse>

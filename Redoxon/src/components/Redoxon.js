@@ -6,10 +6,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import App from './../App.css';
 class Redoxon extends React.Component {
     render() {
-        return <Container fluid>
+        return <Container fluid="xl">
             <Header />
             <Row>
-                <Col><Image webp={require("../images/double-action-header_BG.webp")} style={{ width: '100%' }} /></Col>
+                <Col><Image webp={require("../images/double-action-header_BG.webp")} style={{width: '1263px'}} /></Col>
             </Row>
             <Row className="mt-4 text-center">
                 <Col><h1 className="blue-title">Редоксон® с Витамин C и Цинк поддържане на имунната система</h1>

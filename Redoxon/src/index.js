@@ -12,7 +12,6 @@ import HowStayHealthy from './components/HowStayHealthy';
 import WhereBuy from './components/WhereBuy';
 import Faq from './components/Faq';
 import WhoAreWe from './components/WhoAreWe';
-import Video from './components/Video';
 import * as serviceWorker from './serviceWorker';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
@@ -26,7 +25,6 @@ ReactDOM.render( <BrowserRouter>
         <Route path="/WhereBuy" component={WhereBuy} />
         <Route path="/Faq" component={Faq} />
         <Route path="/WhoAreWe" component={WhoAreWe} />
-        <Route path="/Video" component={Video} />
 </BrowserRouter>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

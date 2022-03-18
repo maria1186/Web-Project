@@ -7,11 +7,11 @@ import App from './../App.css';
 
 class WhereBuy extends React.Component {
     render() {
-        return <Container fluid>
+        return <Container fluid="xl">
             <Header />
             <Row>
                 <Col md={{span:12}}>
-                    <Image webp={require("../images/where-to-buy-home@2x.webp")} style={{width:'100%'}}/>
+                    <Image webp={require("../images/where-to-buy-home@2x.webp")} style={{ width: '1263px' }}/>
                 </Col>
             </Row>
             <Row>
@@ -21,35 +21,35 @@ class WhereBuy extends React.Component {
             </Row>
             <Row>
 
-                <Col md={{span:3, offset:2}}>
+                <Col md={{span:3, offset:2}} className="mb-4">
                     <Image webp={require("../images/366.webp")} />
                 </Col>
-                <Col md={{span:3}}>
+                <Col md={{span:3}} className="mb-4">
                     <Image webp={require("../images/framar.webp")} />
                 </Col>
-                <Col md={{span:3}}>
+                <Col md={{span:3}} className="mb-4">
                     <Image webp={require("../images/remedium.webp")} />
                 </Col>
             </Row>
             <Row>
-                <Col md={{span:3, offset:2}}>
+                <Col md={{span:3, offset:2}} className="mb-4">
                     <Image webp={require("../images/sofarma.webp")} />
                 </Col>
-                <Col md={{span:3}}>
+                <Col md={{span:3}} className="mb-4">
                     <Image webp={require("../images/subra.webp")} />
                 </Col>
-                <Col md={{span:3}}>
+                <Col md={{span:3}} className="mb-4">
                     <Image webp={require("../images/adonis.webp")} />
                 </Col>
             </Row>
             <Row>
-                <Col md={{span:3, offset:2}}>
+                <Col md={{span:3, offset:2}} className="mb-4">
                     <Image webp={require("../images/green_medea_logo.webp")} />
                 </Col>
-                <Col md={{span:3}}>
+                <Col md={{span:3}} className="mb-4">
                     <Image webp={require("../images/afya_logo.webp")} />
                 </Col>
-                <Col md={{span:3}}>
+                <Col md={{span:3}} className="mb-4">
                     <Image webp={require("../images/sanita.webp")} />
                 </Col>
             </Row>

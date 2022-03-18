@@ -17,10 +17,10 @@ class Products extends React.Component {
     render() {
        
 
-        return <Container fluid > < Header />
+        return <Container fluid="xl" > < Header />
             <Row>
-                <Col>
-                    <Image webp={require("../images/everyday-prevention-header.webp")} style={{ width: '100%' }} /> </Col >
+                <Col xl={12}>
+                    <Image webp={require("../images/everyday-prevention-header.webp")} style={{ width: '1263px' }} /> </Col >
             </Row>
             <Row className="mt-4 text-center">
                 <Col>
