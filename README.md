@@ -1,3 +1,3 @@
 ﻿# Web -project 
- Моите знания и умения като front end developer на практика. Учене през цялата кариера.
+I believe in "learning by doing" and use my time to learn new skills and tools.
 
