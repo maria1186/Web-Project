@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Nevis-Bold";
+  src: url("./font/Nevis/nevis-Bold.ttf") format("ttf"),
+    url("./font/Nevis/nevis-Bold.otf") format("otf"),
+    url("./font/Nevis/nevis-Bold.svg") format("svg"),
+    url("./font/Nevis/nevis-Bold.woff") format("woff"),
+    url("./font/Nevis/nevis.woff2") format("woff2");
+  font-display: swap;
+}
+
+.pure-g {
+  letter-spacing: 0;
+}
+
+.h-5 {
+  height: 5rem;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.col-3 {
+  line-height: 0.3rem;
+}
+
+.row .pure-u-1.pure-u-md-1-4 {
+  padding-top: 3rem;
+}
+
+.row > * {
+  padding-right: 1rem;
+}
+
+#container-background {
+  background-image: url("./img/background-site-full.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3%;
+}
+
+#header {
+  padding-top: 2em;
+}
+
+#hero  > .pure-g{
+  justify-content: center;
+}
+
+#hero h1,
+h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.13em;
+  line-height: 1.11em;
+  color: #ea9f3e;
+  padding-top: 0.56em;
+}
+
+#hero p {
+  font-family: "Georgia", sans-serif;
+  font-size: 0.89em;
+  line-height: 1.4em;
+  color: #cfcdb4;
+}
+
+#hero .pure-u-1.pure-u-md-1-2.pure-u-lg-9-24 {
+  padding: 0.7rem 2rem;
+}
+
+a[href="mailto:mymail@mydomain.com"] {
+  color: #ea9f3e;
+  text-decoration: none;
+}
+
+img[alt="open laptop"]:hover {
+  -ms-transform: skewY(330deg);
+  /* IE 9 */
+  transform: skewY(330deg);
+}
+
+img[alt="open laptop"] {
+  transition: all 5s;
+}
+
+.pure-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 36em) {
+  .pure-menu {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 47.9375em) {
+  .row .pure-u-1.pure-u-md-1-4,
+  #contact {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+#brand {
+  display: flex;
+  flex-direction: column;
+}
+
+#brand span {
+  font-family: "Georgia", serif;
+  font-size: 1.13em;
+  font-style: italic;
+  line-height: 1.13em;
+  color: #af9671;
+  filter: drop-shadow(1px 1.732px 1px rgba(0, 0, 0, 0.75));
+  text-align: center;
+}
+
+.pure-menu-heading {
+  font-family: "Nevis-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 18px;
+  color: #cfcdb4;
+  text-align: center;
+  filter: drop-shadow(1.5px 2.598px 1.5px rgba(0, 0, 0, 0.75));
+}
+
+.pure-menu-link {
+  font-size: 18px;
+  line-height: 18px;
+  color: #af9671;
+  font-family: "Arial", sans-serif;
+}
+
+.home-menu .pure-menu-selected a {
+  color: white;
+}
+
+/* Work Section */
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-family: "Georgia";
+  font-weight: bold;
+  font-size: 0.88em;
+  color: #af9671;
+  text-indent: 0.5rem;
+}
+
+.data {
+  font-family: "Georgia";
+  font-size: 0.8em;
+  color: #cfcdb4;
+  text-indent: 0.5rem;
+}
+
+#services h3 {
+  font-family: "Arial";
+  font-size: 1.1em;
+  line-height: 1.1em;
+  color: #ea9f3e;
+}
+
+#services h3 > img {
+  padding: 0 0.3em;
+  vertical-align: middle;
+}
+
+#services p,
+p#email::before {
+  font-family: "Georgia";
+  font-size: 0.88em;
+  color: #cfcdb4;
+}
+
+#services span {
+  font-family: "Georgia";
+  font-weight: bold;
+  font-size: 0.88em;
+  color: #af9671;
+}
+
+#social span {
+  display: block;
+  padding: 0.5em;
+}
+
+#social img {
+  padding: 0.3em;
+  vertical-align: middle;
+}
+
+p#email {
+  color: #ea9f3e;
+}
+
+p#email::before {
+  content: "Email:";
+}
+
+span#back-to-top {
+  font-family: "Georgia";
+  color: #ea9f3e;
+  font-size: 0.88em;
+  cursor: pointer;
+}
+
+#copyright {
+  font-family: "Georgia";
+  font-size: 0.88em;
+  color: #cfcdb4;
+  margin-left: 8rem;
+}
+
+/**
+ * ----------------------------------------
+ * animation pulsate-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.pulsate-fwd {
+  -webkit-animation: pulsate-fwd 0.5s ease-in-out both;
+  animation: pulsate-fwd 0.5s ease-in-out both;
+}
+
+@media screen and (max-width: 58.25em) {
+  #content {
+    top: 54em;
+  }
+}
