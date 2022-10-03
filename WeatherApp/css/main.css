@@ -1,0 +1,275 @@
+html {
+    font-size: 1em;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    font-size: 1rem;
+    background: #3245cc;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+
+/* Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * Remove the inheritance of text transform in Firefox. */
+
+button,
+select {
+    text-transform: none;
+}
+
+
+/* Correct the inability to style clickable types in iOS and Safari.*/
+   
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/* Remove the inner border and padding in Firefox.*/
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+
+/* Correct the padding in Firefox.*/
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+   [type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+
+/* Remove the inner padding in Chrome and Safari on macOS. */
+  
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    fill: #2b181c;
+}
+img{
+    padding-right: .7em;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+
+/* HEADER */
+
+.header .row {
+    text-align: center;
+}
+
+.header__search,
+.header__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="search"] {
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+input[type="search"]:focus {
+    width: 250px;
+  }
+.header__geolocate {
+    margin-right: .8rem;
+}
+
+.header__form input {
+    padding: 0.575rem 0.75rem;
+    color: #495057;
+    width: 100%;
+}
+
+.header__form button {
+    padding: 0.4rem 1rem;
+    border: 0;
+    background: #e5db09;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+    .header .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        padding-top: 2rem;
+    }
+}
+
+
+/* Weather */
+
+.weather {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.weather__message {
+    padding-top: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.weather .location {
+    color: #eddfce;
+}
+
+.weather__summary {
+    margin-top: 3rem;
+}
+.weather__summary p{
+    text-transform: capitalize;
+}
+.weather__summary .weather-icon {
+    font-size: 3rem;
+    margin-right: 1.4rem;
+}
+
+.weather__celsius-value {
+    font-size: 2.3rem;
+}
+
+.weather__celsius-value .wi-celsius {
+    font-size: 8rem;
+    vertical-align: middle;
+}
+
+.weather__miscellaneous {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.weather__miscellaneous li:first-child {
+    margin-right: 2rem;
+}
+.weather__miscellaneous li:last-child{
+    padding-left: 1rem;
+}
+
+.weather__miscellaneous span {
+    color: #fffeea;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+
+/* Forecast */
+
+.forecast {
+    margin-top: 5rem;
+}
+
+.forecast .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.forecast__day {
+    text-align: center;
+    border: 2px outset greenyellow;
+    margin-bottom: .8rem;
+    flex: 1 0 100%;
+}
+
+.forecast__date {
+    font-size: 1.3rem;
+}
+
+.forecast__icon {
+    font-size: 3.7rem;
+}
+
+.forecast__temp {
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 600px) {
+    .forecast__day {
+        margin-right: 1rem;
+        flex: 1 1 15%;
+    }
+}
