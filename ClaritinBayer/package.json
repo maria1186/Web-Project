@@ -1,15 +1,19 @@
 {
     "name": "claritinbayer",
     "version": "1.0.0",
+    "type": "module",
     "description": "",
     "main": "index.js",
     "scripts": {
         "build": "tailwindcss build ./src/style.css -o ./public/style.css",
-        "watch": "tailwindcss watch ./src/style.css -o ./public/style.css --watch"
+        "watch": "tailwindcss watch ./src/style.css -o ./public/style.css --watch",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
     },
     "author": "Maria Rangelova",
     "license": "ISC",
     "devDependencies": {
+        "jest": "^30.1.3",
+        "jest-environment-jsdom": "^30.1.2",
         "tailwindcss": "^3.4.17"
     },
     "dependencies": {

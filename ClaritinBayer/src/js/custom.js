@@ -1,11 +1,31 @@
 
-   const button = document.querySelector('#menu-button');
-     const menu = document.querySelector('#menu');
+  //  const button = document.querySelector('#menu-button');
+  //  const menu = document.querySelector('#menu');
     
 
-     button.addEventListener('click', () => {
-         menu.classList.toggle('hidden');
-     });
+    //  button.addEventListener('click', () => {
+        //  menu.classList.toggle('hidden');
+    //  });
+    import { toggleHiddenClass } from './toggleHiddenClass.js';
+    
+
+    // Функция за добавяне на слушател към бутон, който превключва менюто
+    export function initMenuToggle(buttonSelector, menuSelector) {
+      const button = document.querySelector(buttonSelector);
+      const menu = document.querySelector(menuSelector);
+
+      if (!button || !menu) {
+        console.warn('Button or menu element not found');
+        return;
+      }
+
+      button.addEventListener('click', () => {
+        toggleHiddenClass(menu);
+      });
+    }
+
+    // Автоматично стартиране с дефинираните селектори
+    initMenuToggle('#menu-button', '#menu');
 
  
 $(document).ready(function() {
