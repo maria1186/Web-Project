@@ -1,0 +1,50 @@
+body {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana,Arial, sans-serif;
+}
+
+#search {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+    font-family: 'Geneva';
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 4em;
+}
+
+#weather {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 20%;
+}
+
+
+h2 {
+    font-family: 'Segoe UI';
+    font-size: 1.4em;
+    color: #4CAF50;
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.1em;
+}
+input[type="text"] {
+    display: inline-block;
+    padding: .5em;
+    font-size: 1em;
+    width: 17em;
+    margin-right: .7em;
+}
+
+button {
+    width: 20%;
+    padding: .6em;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width: 20%;
+}
