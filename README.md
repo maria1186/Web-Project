@@ -76,6 +76,6 @@ I am available for both **full-time employment** and **part-time freelance contr
 
 - [<img src="https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000" height="25" style="vertical-align: center;"/> LinkedIn Profile](https://www.linkedin.com/in/maria-rangelova-frontdeveloper/?locale=en-US)
 
-- GitHub Profile: [@maria1186](https://github.com)
+- 📧 **Email:** [rangelova1186@gmail.com](mailto:rangelova1186@gmail.com)
 
 _Feel free to explore the repository source folders to check my code syntax and project structures!_
