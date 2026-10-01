@@ -74,7 +74,7 @@ Specialized in **English to Bulgarian** localization for complex software docume
 
 I am available for both **full-time employment** and **part-time freelance contracts** with flexible deliverables.
 
-- [<img src="https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000" height="25" style="vertical-align: center;"/> LinkedIn Profile](https://www.linkedin.com/in/maria-rangelova-frontdeveloper/?locale=en-US)
+- [<img src="https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000" height="25" style="vertical-align: middle;"/> LinkedIn Profile](https://www.linkedin.com/in/maria-rangelova-frontdeveloper/?locale=en-US)
 
 - 📧 **Email:** [rangelova1186@gmail.com](mailto:rangelova1186@gmail.com)
 
