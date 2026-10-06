@@ -1,9 +1,0 @@
-node_modules/
-*.exe
-*.dll
-*.stackdump
-.vscode/
-.DS_Store
-dist/
-build/
-coverage/
