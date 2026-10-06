@@ -17,7 +17,6 @@ Explore all my web projects through the interactive live dashboard:
 
 Every folder in this repository represents a complete web page integration or functional application. You can view their live demos below:
 
-- 🌐 **[ClaritinBayer](https://github.ioClaritinBayer/)** – Corporate landing page integration and asset management.
 - 🌦️ **[WeatherApp](https://github.ioWeatherApp/)** – Dynamic frontend dashboard leveraging external weather APIs.
 - 🏔️ **[MNTN-travel](https://github.ioMNTN-travel/)** – Modern travel landing page utilizing advanced modern layout techniques.
 - ☁️ **[MaguwoHost](https://github.ioMaguwoHost/)** – Clean and structural cloud hosting provider concept page.
